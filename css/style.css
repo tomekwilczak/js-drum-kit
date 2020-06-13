@@ -23,7 +23,7 @@ body {
   padding-top: 40px;
 }
 
-.square {
+.key {
   height: 90px;
   width: 110px;
   font-weight: 600;
@@ -36,8 +36,8 @@ body {
   border-radius: 10px;
 }
 
-.square:hover,
-.square:focus,
+.key:hover,
+.key:focus,
 .playing {
   background-color: rgba(140, 0, 255, 0.938);
   transform: scale(1.1);
@@ -45,12 +45,12 @@ body {
   box-shadow: 0 0 10px #9ecaed;
 }
 
-.square span {
+.key span {
   margin: 12px 0;
   padding: 0;
 }
 
-.square p {
+.key p {
   font-size: 0.6em;
   padding: 0;
   color: yellow;
