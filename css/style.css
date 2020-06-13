@@ -8,8 +8,10 @@ body {
   background-repeat: no-repeat;
   font-family: Sanchez, serif;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
   /* border: 1px solid red; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .main {
@@ -18,7 +20,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .square {
