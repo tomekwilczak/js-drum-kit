@@ -1,3 +1,53 @@
+/* Generic - for all projects */
+html {
+  box-sizing: border-box;
+}
+
 body {
-  background: #000;
+  background: url(/img/background.jpg) bottom center;
+  background-repeat: no-repeat;
+  font-family: Sanchez, serif;
+  min-height: 100vh;
+  /* border: 1px solid red; */
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.square {
+  height: 90px;
+  width: 110px;
+  font-weight: 600;
+  font-size: 1.3em;
+  background-color: rgba(140, 0, 255, 0.8);
+  color: #fff;
+  text-align: center;
+  margin: 16px;
+  border: 4px solid #000;
+  border-radius: 10px;
+}
+
+.square:hover,
+.square:focus {
+  background-color: rgba(140, 0, 255, 0.938);
+  border: 4px solid yellow;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+.square h2 {
+  margin: 12px 0;
+  padding: 0;
+}
+
+.square p {
+  font-size: 0.6em;
+  padding: 0;
+  color: yellow;
 }
