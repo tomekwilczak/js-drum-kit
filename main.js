@@ -1,13 +1,13 @@
 // Defining sound files
-const aSound = new Audio("../sounds/clap.wav");
-const sSound = new Audio("../sounds/hihat.wav");
-const dSound = new Audio("../sounds/kick.wav");
-const fSound = new Audio("../sounds/openhat.wav");
-const gSound = new Audio("../sounds/boom.wav");
-const hSound = new Audio("../sounds/ride.wav");
-const jSound = new Audio("../sounds/snare.wav");
-const kSound = new Audio("../sounds/tom.wav");
-const lSound = new Audio("../sounds/tink.wav");
+const aSound = new Audio("sounds/clap.wav");
+const sSound = new Audio("sounds/hihat.wav");
+const dSound = new Audio("sounds/kick.wav");
+const fSound = new Audio("sounds/openhat.wav");
+const gSound = new Audio("sounds/boom.wav");
+const hSound = new Audio("sounds/ride.wav");
+const jSound = new Audio("sounds/snare.wav");
+const kSound = new Audio("sounds/tom.wav");
+const lSound = new Audio("sounds/tink.wav");
 console.log(typeof aSound);
 
 // Defining square divs
@@ -39,6 +39,6 @@ function playKey(key) {
   keyStr = `${keyStr}Sound`;
   console.log(`${keyStr}`);
   console.log(typeof aSound);
-  //   keyStr.play(); // to nie działa
-  aSound.play(); // to działa
+  keyStr.play(); // to nie działa
+  //   aSound.play(); // to działa
 }
