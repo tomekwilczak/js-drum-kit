@@ -41,6 +41,7 @@ body {
 .playing {
   background-color: rgba(140, 0, 255, 0.938);
   transform: scale(1.1);
+  transition: all 0.05s;
   border: 4px solid yellow;
   box-shadow: 0 0 10px #9ecaed;
 }
