@@ -45,7 +45,7 @@ body {
   box-shadow: 0 0 10px #9ecaed;
 }
 
-.square h2 {
+.square span {
   margin: 12px 0;
   padding: 0;
 }

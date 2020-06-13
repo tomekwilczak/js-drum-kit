@@ -39,6 +39,6 @@ function playKey(key) {
   keyStr = `${keyStr}Sound`;
   console.log(`${keyStr}`);
   console.log(typeof aSound);
-  keyStr.play(); // to nie działa
+  eval(keyStr).play();
   //   aSound.play(); // to działa
 }
